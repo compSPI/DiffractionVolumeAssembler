@@ -7,7 +7,7 @@ Run instructions:
 
 mpiexec -n 48 python assemble_diffraction_intensity_volume_mpi.py --config assemble-diffraction-intensity-volume-mpi.json --dataset 3iyf-10K
 
-Algorithm for assembling the diffraction intensity volume:
+Algorithm for assembling the diffraction intensity volume using the MPI Communication Model:
 
 1. Master creates an empty intensity grid
 2. Slave i asks Master for data index k
@@ -18,6 +18,8 @@ Algorithm for assembling the diffraction intensity volume:
 7. Slave i sends intensity grid k to Reducer
 8. Reducer adds intensity grid k to the intensity grid created by Master
 9. Repeat steps 2-8 for all k
+
+Note that Master, Slaves, and Reducer all work in parallel.
 """
 
 # MPI parameters
