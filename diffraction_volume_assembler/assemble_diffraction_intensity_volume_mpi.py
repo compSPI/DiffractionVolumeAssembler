@@ -10,7 +10,7 @@ mpiexec -n 48 python assemble_diffraction_intensity_volume_mpi.py --config assem
 Algorithm for assembling the diffraction intensity volume using the MPI Communication Model:
 
 1. Master creates an empty intensity grid
-2. Slave i asks Master for data index k
+2. Slave i asks Master for a data index
 3. Master provides Slave i with data index k
 4. Slave i creates an empty intensity grid k
 5. Slave i rotates intensity grid k using orientation k
