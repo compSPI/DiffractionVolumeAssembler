@@ -1,0 +1,9 @@
+{
+    "3iyf-10K":
+    {
+        "h5File": "/reg/data/ana03/scratch/deebanr/3iyf-10K-mixed-hit-99/dataset/cspi_synthetic_dataset_diffraction_patterns_3iyf-10K-mixed-hit_uniform_quat_dataset-size=10000_diffraction-pattern-shape=1024x1040.hdf5",
+        "downsampledH5File": "/reg/data/ana03/scratch/deebanr/3iyf-10K-mixed-hit-99/dataset/downsample-128x128/cspi_synthetic_dataset_diffraction_patterns_3iyf-10K-mixed-hit_uniform_quat_dataset-size=10000_diffraction-pattern-shape=1024x1040.hdf5",
+        "diffractionIntensityVolumeH5File": "/reg/data/ana03/scratch/deebanr/3iyf-10K-mixed-hit-99/diffraction-intensity-volume/cspi_synthetic_dataset_diffraction_patterns_3iyf-10K-mixed-hit_uniform_quat_dataset-size=10000_diffraction-pattern-shape=128x128.hdf5",
+        "datasetSize": 10000
+    }
+}
